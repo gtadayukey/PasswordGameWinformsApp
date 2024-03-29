@@ -16,10 +16,12 @@ These constraints range from including at least one special character to incorpo
 ## Screenshots
 
 Caption: Inicialized the program.
-![image](https://github.com/gtadayukey/PasswordGameWinformsApp/assets/100155376/a7f1d9a4-faac-4242-b54b-39f7f2f8066b)
+![image](https://github.com/gtadayukey/PasswordGameWinformsApp/assets/100155376/e1c6e14e-8429-4618-a017-a079e8c32d2b)
+
 
 Caption: Start trying some passwords.
-![image](https://github.com/gtadayukey/PasswordGameWinformsApp/assets/100155376/c3d6fc6c-7227-4e58-8cc8-60d2eb412a37)
+![image](https://github.com/gtadayukey/PasswordGameWinformsApp/assets/100155376/b4e554af-d39a-47c6-af97-cea46e4fba24)
+
 
 ## How to Play
 - Download and Installation:
