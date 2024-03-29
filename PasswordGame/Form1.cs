@@ -56,7 +56,7 @@ namespace PasswordGame
                                   "Rule 6 – Your password must include a month of the year in lowercase.",
                                   "Rule 7 – Your password must include a roman numeral.",
                                   "Rule 8 – Your password must include a two letter symbol from the periodic.",
-                                  "Rule 9 – Your password must include the name of the country we live in.",
+                                  "Rule 9 – Your password must include the country of football and carnival.",
                                   "Rule 10 – Your password must include a leap year that has already passed.",
                                   "Rule 11 – Your password must include the length of your password.",
                                   "Rule 12 – Your password must include the current date (dd/MM/yyyy)."

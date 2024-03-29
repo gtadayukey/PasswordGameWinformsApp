@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\Estudos Backend\\C#\\Projetos\\PasswordGame\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9020E398-AC09-48F7-896D-F9B039C448BD}|PasswordGame\\PasswordGame.csproj|D:\\Estudos Backend\\C#\\Projetos\\PasswordGame\\passwordgame\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9020E398-AC09-48F7-896D-F9B039C448BD}|PasswordGame\\PasswordGame.csproj|solutionrelative:passwordgame\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9020E398-AC09-48F7-896D-F9B039C448BD}|PasswordGame\\PasswordGame.csproj|d:\\estudos backend\\c#\\projetos\\passwordgame\\passwordgame\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{9020E398-AC09-48F7-896D-F9B039C448BD}|PasswordGame\\PasswordGame.csproj|solutionrelative:passwordgame\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9020E398-AC09-48F7-896D-F9B039C448BD}|PasswordGame\\PasswordGame.csproj|D:\\Estudos Backend\\C#\\Projetos\\PasswordGame\\passwordgame\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9020E398-AC09-48F7-896D-F9B039C448BD}|PasswordGame\\PasswordGame.csproj|solutionrelative:passwordgame\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9020E398-AC09-48F7-896D-F9B039C448BD}|PasswordGame\\PasswordGame.csproj|D:\\Estudos Backend\\C#\\Projetos\\PasswordGame\\passwordgame\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9020E398-AC09-48F7-896D-F9B039C448BD}|PasswordGame\\PasswordGame.csproj|solutionrelative:passwordgame\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,17 +22,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "D:\\Estudos Backend\\C#\\Projetos\\PasswordGame\\PasswordGame\\Form1.cs",
               "RelativeDocumentMoniker": "PasswordGame\\Form1.cs",
               "ToolTip": "D:\\Estudos Backend\\C#\\Projetos\\PasswordGame\\PasswordGame\\Form1.cs",
               "RelativeToolTip": "PasswordGame\\Form1.cs",
-              "ViewState": "AQIAACsAAAAAAAAAAAAAwDYAAAA/AAAA",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAwCUAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-28T21:54:58.657Z",
               "IsPinned": true,
@@ -40,20 +40,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Form1.Designer.cs",
               "DocumentMoniker": "D:\\Estudos Backend\\C#\\Projetos\\PasswordGame\\PasswordGame\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "PasswordGame\\Form1.Designer.cs",
               "ToolTip": "D:\\Estudos Backend\\C#\\Projetos\\PasswordGame\\PasswordGame\\Form1.Designer.cs",
               "RelativeToolTip": "PasswordGame\\Form1.Designer.cs",
-              "ViewState": "AQIAAFkAAAAAAAAAAAAowFEAAAA/AAAA",
+              "ViewState": "AQIAADIAAAAAAAAAAAAYwEwAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-28T21:30:04.372Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "D:\\Estudos Backend\\C#\\Projetos\\PasswordGame\\PasswordGame\\Form1.cs",
               "RelativeDocumentMoniker": "PasswordGame\\Form1.cs",

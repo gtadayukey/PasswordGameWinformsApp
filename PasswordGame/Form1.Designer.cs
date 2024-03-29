@@ -64,15 +64,16 @@
             // listBoxRules
             // 
             listBoxRules.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-            listBoxRules.BackColor = SystemColors.Info;
-            listBoxRules.BorderStyle = BorderStyle.None;
+            listBoxRules.BackColor = Color.LightGoldenrodYellow;
             listBoxRules.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             listBoxRules.FormattingEnabled = true;
+            listBoxRules.IntegralHeight = false;
             listBoxRules.ItemHeight = 20;
             listBoxRules.Location = new Point(126, 175);
             listBoxRules.Name = "listBoxRules";
+            listBoxRules.ScrollAlwaysVisible = true;
             listBoxRules.SelectionMode = SelectionMode.None;
-            listBoxRules.Size = new Size(544, 20);
+            listBoxRules.Size = new Size(544, 27);
             listBoxRules.TabIndex = 2;
             listBoxRules.TabStop = false;
             // 
