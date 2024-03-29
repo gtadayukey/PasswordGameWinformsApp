@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dRDAjbFleg/oayKrGlqkn1rxqVbSjSTY1DrbZD/BYZBuzAEYJCT8MpYNOVe3DIl2I3u8vy6XZdnt71ZpB38Ulg==",
+  "dgSpecHash": "J+vSjfFu+bTCEYqs+OWBJQDvqUJnOMwA/t+33Pfie517TLv9kx2qdDCW1TteLVJL1Ae1lCJA3O/7ML8SDiaYFA==",
   "success": true,
-  "projectFilePath": "D:\\Estudos Backend\\C#\\ProgramasOO\\PasswordGame\\PasswordGame\\PasswordGame.csproj",
+  "projectFilePath": "D:\\Estudos Backend\\C#\\Projetos\\PasswordGame\\PasswordGame\\PasswordGame.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
