@@ -34,6 +34,8 @@
             listBoxRules = new ListBox();
             progressBarPassword = new ProgressBar();
             labelCount = new Label();
+            labelProgress = new Label();
+            labelWinner = new Label();
             SuspendLayout();
             // 
             // textBoxPassword
@@ -80,9 +82,9 @@
             // progressBarPassword
             // 
             progressBarPassword.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-            progressBarPassword.Location = new Point(197, 387);
+            progressBarPassword.Location = new Point(126, 398);
             progressBarPassword.Name = "progressBarPassword";
-            progressBarPassword.Size = new Size(398, 33);
+            progressBarPassword.Size = new Size(544, 27);
             progressBarPassword.TabIndex = 3;
             // 
             // labelCount
@@ -98,17 +100,42 @@
             labelCount.TabIndex = 4;
             labelCount.Text = "0";
             // 
+            // labelProgress
+            // 
+            labelProgress.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
+            labelProgress.AutoSize = true;
+            labelProgress.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            labelProgress.Location = new Point(364, 380);
+            labelProgress.Name = "labelProgress";
+            labelProgress.Size = new Size(77, 15);
+            labelProgress.TabIndex = 5;
+            labelProgress.Text = "Progress Bar";
+            // 
+            // labelWinner
+            // 
+            labelWinner.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
+            labelWinner.AutoSize = true;
+            labelWinner.Enabled = false;
+            labelWinner.Font = new Font("Ink Free", 26.2499962F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            labelWinner.Location = new Point(11, 175);
+            labelWinner.Name = "labelWinner";
+            labelWinner.Size = new Size(0, 43);
+            labelWinner.TabIndex = 6;
+            labelWinner.Visible = false;
+            // 
             // PasswordGame
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.Info;
             ClientSize = new Size(800, 450);
+            Controls.Add(labelProgress);
             Controls.Add(labelCount);
             Controls.Add(progressBarPassword);
             Controls.Add(listBoxRules);
             Controls.Add(labelPasswordTitle);
             Controls.Add(textBoxPassword);
+            Controls.Add(labelWinner);
             Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "PasswordGame";
             Text = "PasswordGame";
@@ -123,5 +150,7 @@
         private ListBox listBoxRules;
         private ProgressBar progressBarPassword;
         private Label labelCount;
+        private Label labelProgress;
+        private Label labelWinner;
     }
 }

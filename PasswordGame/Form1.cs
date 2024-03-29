@@ -18,9 +18,17 @@ namespace PasswordGame
         private void TextBoxPassword_TextChanged(object sender, EventArgs e)
         {
             progressBarPassword.Value = 0;
-            int inputLength = textBoxPassword.Text.Length;
-            labelCount.Text = inputLength.ToString();
+            labelCount.Text = textBoxPassword.Text.Length.ToString();
+            ValidatePattern();
 
+            if (progressBarPassword.Value == progressBarPassword.Maximum)
+            {
+                WinScreen();
+            }
+        }
+
+        private void ValidatePattern()
+        {
             string[] patterns =
             {
                 @"^.{5,}$",
@@ -33,7 +41,7 @@ namespace PasswordGame
                 @"^.*(Ac|Al|Am|Sb|Ar|As|At|Ba|Bk|Be|Bi|Bh|Br|Cd|Ca|Cf|Ce|Cs|Cl|Cr|Co|Cu|Cm|Ds|Db|Dy|Es|Er|Eu|Fm|Fr|Gd|Ga|Ge|Au|Hf|Hs|He|Ho|In|Ir|Fe|Kr|La|Lr|Pb|Li|Lu|Mg|Mn|Mt|Md|Hg|Mo|Nd|Ne|Np|Ni|Nb|No|Os|Pd|Pt|Pu|Po|Pr|Pm|Pa|Ra|Rn|Re|Rh|Rg|Rb|Ru|Rf|Sm|Sc|Sg|Se|Si|Ag|Na|Sr|Ta|Tc|Te|Tb|Tl|Th|Tm|Sn|Ti|Xe|Yb|Zn|Zr).*$",
                 @"^.*Brazil.*$",
                 $@"^.*{LeapYears()}.*$",
-                $@"^.*{inputLength}.*$",
+                $@"^.*{textBoxPassword.Text.Length}.*$",
                 $@"^.*{DateTime.Now:d}.*$"
             };
 
@@ -45,6 +53,7 @@ namespace PasswordGame
                 }
             }
         }
+
 
         private void PopulateQuestionList()
         {
@@ -70,6 +79,25 @@ namespace PasswordGame
                 listBoxRules.Items.Add(question);
                 _questions.Add(new(question));
             }
+        }
+
+        private void WinScreen()
+        {
+            listBoxRules.Visible = false;
+            listBoxRules.Enabled = false;
+            textBoxPassword.Visible = false;
+            textBoxPassword.Enabled = false;
+            progressBarPassword.Visible = false;
+            progressBarPassword.Enabled = false;
+            labelCount.Visible = false;
+            labelCount.Enabled = false;
+            labelProgress.Visible = false;
+            labelProgress.Enabled = false;
+            labelPasswordTitle.Visible = false;
+            labelPasswordTitle.Enabled = false;
+            labelWinner.Enabled = true;
+            labelWinner.Visible = true;
+            labelWinner.Text = "CONGRATS, YOU WIN THE PASSWORD GAME!";
         }
 
         private static string LeapYears()
