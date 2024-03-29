@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PasswordGame")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+759239a84c39c8eeb82b0966248b5bcc16ded9ed")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a2a32a623178c84b95aee80f8dc0fb61af124a96")]
 [assembly: System.Reflection.AssemblyProductAttribute("PasswordGame")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PasswordGame")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
