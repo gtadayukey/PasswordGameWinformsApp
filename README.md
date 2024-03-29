@@ -1,6 +1,6 @@
 # Password Game with C#
 Welcome to the Password Game, a fun and interactive project developed using C#, .NET, and WinForms. This README will guide you through the game, its features, and how to download and play it.
-Also, this project is part of a **college project** that required the implementation of regular expressions in any way desired.
+Also, this project is part of a **College Project** that required the implementation of regular expressions in any way desired.
 I decided that i would make a simple password game inspired in the famous "The Password Game" from NealFun that you can check [here](https://neal.fun/password-game/).
 
 ## Overview
